@@ -1,0 +1,65 @@
+.sub-div{
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+ 
+ 
+}
+.card{
+  background-color: #fff;
+}
+
+body{
+   background-color: lightgreen;
+}
+
+form{
+  width: 400px;
+  margin: 20px auto;
+
+}
+ul{
+  list-style: none;
+}
+.btn{
+  width:80px;
+  height: 39px;
+  font-size: 17px;
+}
+.form-input{
+  width:200px;
+  height: 35px;
+  font-size: 15px;
+}
+
+.pagination{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 10px;
+  font-size: 1.2rem;
+  gap: 5px;
+  
+  
+
+}
+.pagination .page-num{
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+  text-decoration: none!important;
+  width: 300px;
+  background-color: #fff;
+
+}
+.pagination .page-num:hover{
+  background-color: #5ab1bb;
+  color:#fff;
+
+}
+.pagination .active{
+  background-color: #5ab1bb;
+}
